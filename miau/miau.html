@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alterando textos</title>
+</head>
+<body>
+    <h1 id=titulo>
+        meu primeiro site
+    </h1>
+
+    <button onclick="mudarTexto()"> 
+        mudar titulo
+    </button>
+    <button onclick="miau()"> 
+        meow
+    </button>
+
+    <script>
+        function mudarTexto() {
+        document.getElementById("titulo").textContent="Agora o site é sitado";
+        }
+    </script>
+
+     <script>
+        function miau() {
+        document.getElementById("titulo").textContent="miaumiaumiau";
+        }
+    </script>
+</body>
+</html>
